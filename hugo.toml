@@ -1,9 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "devise"
 enableEmoji = true
-relativeURLs = true
+relativeURLs = false
 copyright = "&copy; 2025, Joseph Hurley Jr."
 
 [menu]
@@ -11,19 +11,19 @@ copyright = "&copy; 2025, Joseph Hurley Jr."
     identifier = "about"
     name = "About"
     title = "About"
-    url = "/about/"
+    url = "/about"
     weight = -110
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
     title = "Posts"
-    url = "/post/"
+    url = "/post"
     weight = -100
   [[menu.main]]
     identifier = "categories"
     name = "Categories"
     title = "Categories"
-    url = "/categories/"
+    url = "/categories"
     weight = -90
 
 [params]
@@ -44,4 +44,4 @@ copyright = "&copy; 2025, Joseph Hurley Jr."
     href = "https://www.linkedin.com/in/joeyhurley1/"
   [[params.social]]
     fa_icon = "fas fa-at fa-xl"
-    href = ""
+    href = "mailto:jrhu252@gmail.com"

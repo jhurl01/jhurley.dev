@@ -1,0 +1,47 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "devise"
+enableEmoji = true
+relativeURLs = true
+copyright = "&copy; 2025, Joseph Hurley Jr."
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/post/"
+    weight = -100
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    title = "Categories"
+    url = "/categories/"
+    weight = -90
+
+[params]
+  description = "Your meta description"
+  header_title = "Joey Hurley"
+  header_subtitle = "Software Engineer | Louisville, KY"
+  home_image = "/images/selfie.jpg"
+  [params.style]                             # CSS style overrides
+    backgroundColor = "#f8f9fa"
+    homeImageBorderColor = "#ffffff"
+    fontFamilyBase = "Helvetica Neue"        # First-choice font
+    fontColor = "#212529"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-xl"          # Font Awesome icon class
+    href = "http://github.com/jhurl01"     
+  [[params.social]]
+    fa_icon = "fab fa-linkedin-in fa-xl"
+    href = "https://www.linkedin.com/in/joeyhurley1/"
+  [[params.social]]
+    fa_icon = "fas fa-at fa-xl"
+    href = ""

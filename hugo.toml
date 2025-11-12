@@ -50,6 +50,10 @@ url = "https://www.linkedin.com/in/joeyhurley1/"
 name = "github"
 url = "https://github.com/jhurl01"
 
+[[params.social]]
+name = "gmail"
+url = "mailto:jrhu252@gmail.com"
+
 # Main menu pages
 [[params.menu]]
 name = "home"

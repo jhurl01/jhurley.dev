@@ -21,7 +21,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hi!'
 homeIntroContent = """
-I’m an Associate Software Engineer at Papa Johns through Brooksource’s Elevate program.
+I’m an Associate Software Engineer at Papa Johns through Brooksource’s Elevate program. I studied computer science and mathematics at the University of Kentucky's Pigman College of Engineering.
 
 I’m passionate about designing, developing, and deploying meaningful software solutions. I’m always working on something new, so check back often to see what’s next.
 """
